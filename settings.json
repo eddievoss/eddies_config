@@ -1,0 +1,50 @@
+{
+    "update.mode": "none",
+    "database-client.autoSync": true,
+    "window.zoomLevel": 2,
+    "workbench.iconTheme": "Monokai Pro Icons",
+    "workbench.colorTheme": "Monokai Dimmed",
+    "remote.SSH.remotePlatform": {
+        "outer1-container": "linux",
+        "impl-a3z-shared.tunnel": "linux",
+        "datava-gateway": "linux",
+        "impl-a3z-container": "linux",
+        "impl-a1.datava.com.tunnel": "linux",
+        "purakal.datava.com.tunnel": "linux",
+        "datava-suneast": "linux"
+    },
+    "files.exclude": {
+        "**/_aopcache/**": true,
+        "**/_output/**\"": true,
+        "**/.direnv/**": true,
+        "**/nix/**": true,
+        "**/psalm/**\"": true,
+        "**/testOutput/**": true,
+        "**/vendor/**": true
+    },
+    "vscode-pets.throwBallWithMouse": true,
+    "vscode-pets.petType": "rubber-duck",
+    "vscode-pets.petColor": "magical",
+    "vscode-pets.petSize": "large",
+    "git.autofetch": true,
+    "git.confirmSync": false,
+    "git.suggestSmartCommit": false,
+    "gitlens.views.scm.grouped.default": "branches",
+    "diffEditor.ignoreTrimWhitespace": false,
+    "vim.useSystemClipboard": true,
+    "vim.handleKeys": {
+        "<C-p>": false,
+        "<C-`>": false,
+        "<C-b>": false,
+        "<C-S-o>": false,
+        "<C-c>": false,
+        "<C-x>": false,
+        "<C-v>": false,
+        "<C-f>": false,
+        "<C-z>": false,
+        "<C-y>": false
+    },
+    "editor.lineNumbers": "relative",
+    "editor.minimap.enabled": false,
+    "editor.formatOnSave": true
+}

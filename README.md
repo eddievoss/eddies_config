@@ -1,2 +1,4 @@
-# vscode_settings
-VS Code Settings
+# Eddie's Config Files
+- Linux
+- Vimium
+- VS Code Settings

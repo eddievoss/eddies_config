@@ -1,0 +1,15 @@
+# Arrow keys for HJKL
+unmap <Left>
+unmap <Down>
+unmap <Up>
+unmap <Right>
+map <Left> scrollLeft
+map <Down> scrollDown
+map <Up> scrollUp
+map <Right> scrollRight
+
+# Arrow Keys for history
+unmap <S-Left>
+unmap <S-Right>
+map <S-Left> goBack
+map <S-Right> goForward

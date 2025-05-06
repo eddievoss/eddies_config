@@ -6,60 +6,13 @@
     "workbench.colorTheme": "Monokai Dimmed",
     "workbench.iconTheme": "Monokai Pro Icons",
     "zenMode.hideLineNumbers": false,
-    
-    "remote.SSH.remotePlatform": {
-        "outer1-container": "linux",
-        "impl-a3z-shared.tunnel": "linux",
-        "datava-gateway": "linux",
-        "impl-a3z-container": "linux",
-        "impl-a1.datava.com.tunnel": "linux",
-        "purakal.datava.com.tunnel": "linux",
-        "datava-suneast": "linux"
-    },
-    "files.exclude": {
-        "**/_aopcache/**": true,
-        "**/_output/**\"": true,
-        "**/.direnv/**": true,
-        "**/nix/**": true,
-        "**/psalm/**\"": true,
-        "**/testOutput/**": true,
-        "**/vendor/**": true
-    },
-    "search.exclude": {
-    "**/_aopcache/**": true,
-    "**/_output/**": true,
-    "**/.direnv/**": true,
-    "**/nix/**": true,
-    "**/psalm/**": true,
-    "**/testOutput/**": true
-    },
-    "intelephense.files.exclude": [
-        "**/.git/**",
-        "**/.svn/**",
-        "**/.hg/**",
-        "**/CVS/**",
-        "**/.DS_Store/**",
-        "**/node_modules/**",
-        "**/bower_components/**",
-        "**/vendor/**/{Tests,tests}/**",
-        "**/.history/**",
-        "**/vendor/**/vendor/**",
-        "**/testOutput/**"
-    ],
-    
-    "database-client.autoSync": true,
-    
+
     "git.autofetch": true,
     "git.confirmSync": false,
     "git.suggestSmartCommit": false,
     "gitlens.views.scm.grouped.default": "branches",
     
     "diffEditor.ignoreTrimWhitespace": false,
-    
-    "vscode-pets.throwBallWithMouse": true,
-    "vscode-pets.petType": "rubber-duck",
-    "vscode-pets.petColor": "magical",
-    "vscode-pets.petSize": "large",
     
     "editor.lineNumbers": "relative",
     "editor.minimap.enabled": false,
@@ -68,56 +21,16 @@
     "editor.linkedEditing": true,
     
     "terminal.integrated.fontFamily": "MesloLGS NF",
-    
     "javascript.updateImportsOnFileMove.enabled": "always",
     
-    "vim.useSystemClipboard": true,
-    "vim.handleKeys": {
-        "<C-p>": false,
-        "<C-`>": false,
-        "<C-b>": false,
-        "<C-S-o>": false,
-        "<C-c>": false,
-        "<C-x>": false,
-        "<C-v>": false,
-        "<C-f>": false,
-        "<C-z>": false,
-        "<C-y>": false
+    "window.commandCenter": false,
+    "files.autoSave": "afterDelay",
+    
+    "editor.detectIndentation": true,
+    "editor.tabSize": 4,
+    "workbench.activityBar.visible": false,
+
+    "extensions.experimental.affinity": {
+        "asvetliakov.vscode-neovim": 1
     },
-    "vim.leader": "<Space>",
-    "vim.hlsearch": true,
-    "vim.normalModeKeyBindingsNonRecursive": [
-        // NAVIGATION
-        // switch b/w buffers
-        { "before": ["<S-left>"], "commands": [":bprevious"] },
-        { "before": ["<S-right>"], "commands": [":bnext"] },
-        // splits
-        { "before": ["leader", "v"], "commands": [":vsplit"] },
-        { "before": ["leader", "s"], "commands": [":split"] },
-        // panes
-        { "before": ["leader", "<left>"], "commands": ["workbench.action.focusLeftGroup"] },
-        { "before": ["leader", "<down>"], "commands": ["workbench.action.focusBelowGroup"] },
-        { "before": ["leader", "<up>"], "commands": ["workbench.action.focusAboveGroup"] },
-        { "before": ["leader", "<right>"], "commands": ["workbench.action.focusRightGroup"] },
-        // NICE TO HAVE
-        { "before": ["leader", "w"], "commands": [":w!"] },
-        { "before": ["leader", "q"], "commands": [":q!"] },
-        { "before": ["leader", "x"], "commands": [":x!"] },
-        { "before": ["[", "d"], "commands": ["editor.action.marker.prev"] },
-        { "before": ["]", "d"], "commands": ["editor.action.marker.next"] },
-        { "before": ["<leader>", "c", "a"], "commands": ["editor.action.quickFix"] },
-        { "before": ["leader", "f"], "commands": ["workbench.action.quickOpen"] },
-        { "before": ["leader", "p"], "commands": ["editor.action.formatDocument"] },
-        { "before": ["g", "h"], "commands": ["editor.action.showDefinitionPreviewHover"] }
-    ],
-    "vim.visualModeKeyBindings": [
-        // Stay in visual mode while indenting
-        { "before": ["<"], "commands": ["editor.action.outdentLines"] },
-        { "before": [">"], "commands": ["editor.action.indentLines"] },
-        // Move selected lines while staying in visual mode
-        { "before": ["<up>"], "commands": ["editor.action.moveLinesDownAction"] },
-        { "before": ["<down>"], "commands": ["editor.action.moveLinesUpAction"] },
-        // toggle comment selection
-        { "before": ["leader", "c"], "commands": ["editor.action.commentLine"] }
-    ]
 }  

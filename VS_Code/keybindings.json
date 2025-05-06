@@ -1,5 +1,5 @@
 [
-  // VS CODE TOGGLES
+  // VS CODE TOOLS
   // Open the Explorer view
   {
     "key": "shift+alt+e",
@@ -114,4 +114,51 @@
     "command": "renameFile",
     "when": "filesExplorerFocus && !inputFocus"
   }
+  {
+    "key": "pageup",
+    "command": "runCommands",
+    "args": {
+      "commands": [
+        {
+          "command": "editorScroll",
+          "args": {
+            "to": "up",
+            "by": "halfPage",
+            "revealCursor": false
+          }
+        },
+        {
+          "command": "cursorMove",
+          "args": {
+            "to": "viewPortCenter"
+          }
+        }
+      ]
+    },
+    "when": "editorTextFocus"
+  },
+  {
+    "key": "pagedown",
+    "command": "runCommands",
+    "args": {
+      "commands": [
+        {
+          "command": "editorScroll",
+          "args": {
+            "to": "down",
+            "by": "halfPage",
+            "revealCursor": false
+          }
+        },
+        {
+          "command": "cursorMove",
+          "args": {
+            "to": "viewPortCenter"
+          }
+        }
+      ]
+    },
+    "when": "editorTextFocus"
+  }
+  
 ]

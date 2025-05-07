@@ -1,3 +1,3 @@
 # Helpful Extensions
-- Vim
+- NeoVim
 - TODO Highlight 

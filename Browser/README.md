@@ -1,6 +1,6 @@
 # Browser Config
 
-## Helpful Extensions
+Helpful Extensions:
 - Vimium
-  - Custom New Tab 
+- Custom New Tab 
 - UBlock Origin

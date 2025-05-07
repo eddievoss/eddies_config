@@ -1,1 +1,1 @@
-# NeoVim dotfiles
+# NeoVim Dotfiles

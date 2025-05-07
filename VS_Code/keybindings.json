@@ -70,6 +70,54 @@
     "key": "ctrl+shift+tab",
     "command": "workbench.action.previousEditor"
   },
+  // Change pageup to halfpage up and then recenter
+  {
+    "key": "pageup",
+    "command": "runCommands",
+    "args": {
+      "commands": [
+        {
+          "command": "editorScroll",
+          "args": {
+            "to": "up",
+            "by": "halfPage",
+            "revealCursor": false
+          }
+        },
+        {
+          "command": "cursorMove",
+          "args": {
+            "to": "viewPortCenter"
+          }
+        }
+      ]
+    },
+    "when": "editorTextFocus"
+  },
+  // Change pagedown to halfpage down and then recenter
+  {
+    "key": "pagedown",
+    "command": "runCommands",
+    "args": {
+      "commands": [
+        {
+          "command": "editorScroll",
+          "args": {
+            "to": "down",
+            "by": "halfPage",
+            "revealCursor": false
+          }
+        },
+        {
+          "command": "cursorMove",
+          "args": {
+            "to": "viewPortCenter"
+          }
+        }
+      ]
+    },
+    "when": "editorTextFocus"
+  }
   // TERMINAL
   // Focus the next terminal (when terminal is focused)
   {
@@ -114,51 +162,4 @@
     "command": "renameFile",
     "when": "filesExplorerFocus && !inputFocus"
   }
-  {
-    "key": "pageup",
-    "command": "runCommands",
-    "args": {
-      "commands": [
-        {
-          "command": "editorScroll",
-          "args": {
-            "to": "up",
-            "by": "halfPage",
-            "revealCursor": false
-          }
-        },
-        {
-          "command": "cursorMove",
-          "args": {
-            "to": "viewPortCenter"
-          }
-        }
-      ]
-    },
-    "when": "editorTextFocus"
-  },
-  {
-    "key": "pagedown",
-    "command": "runCommands",
-    "args": {
-      "commands": [
-        {
-          "command": "editorScroll",
-          "args": {
-            "to": "down",
-            "by": "halfPage",
-            "revealCursor": false
-          }
-        },
-        {
-          "command": "cursorMove",
-          "args": {
-            "to": "viewPortCenter"
-          }
-        }
-      ]
-    },
-    "when": "editorTextFocus"
-  }
-  
 ]

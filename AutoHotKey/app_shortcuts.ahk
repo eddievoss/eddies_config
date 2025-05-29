@@ -1,5 +1,6 @@
 #Requires AutoHotkey v2.0
 
+
 SendMode("Input")
 SetWorkingDir(A_ScriptDir)
 
@@ -21,13 +22,13 @@ SetWorkingDir(A_ScriptDir)
         Run("C:\Program Files\Microsoft VS Code\Code.exe")
 }
 
-; ----- Meh + Down: Switch to Slack -----
+; ----- Meh + Down: Switch to Obsidian -----
 ^!+Down::
 {
-    if WinExist("ahk_exe slack.exe")
+    if WinExist("ahk_exe Obsidian.exe")
         WinActivate()
     else
-        Run("C:\Users\EdwardVoss\AppData\Local\slack\slack.exe")
+        Run("C:\Users\EdwardVoss\AppData\Local\Obsidian\Obsidian.exe")
 }
 
 ; ----- Meh + Up: Switch to Git Bash -----

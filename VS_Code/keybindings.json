@@ -113,7 +113,11 @@
     "key": "r",
     "command": "renameFile",
     "when": "filesExplorerFocus && !inputFocus"
-  }
+  },
+  {
+    "key": "alt+x",
+    "command": "workbench.action.closeActiveEditor"
+  },
   {
     "key": "pageup",
     "command": "runCommands",

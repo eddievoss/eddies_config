@@ -13,3 +13,9 @@ unmap <S-Left>
 unmap <S-Right>
 map <S-Left> goBack
 map <S-Right> goForward
+
+#Control P for Bookmarks
+unmap <C-p>
+unmap <C-P>
+map <C-p>  Vomnibar.activateBookmarks
+map <C-P> Vomnibar.activateBookmarksInNewTab

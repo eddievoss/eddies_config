@@ -1,0 +1,128 @@
+/* Monokai Dimmed Theme Overrides for Obsidian */
+.theme-dark {
+  --background-primary: #1e1e1e;
+  --background-secondary: #272727;
+  --background-tertiary: #282828;
+  --text-normal: #c5c8c6;
+  --text-muted: #949494;
+  --text-accent: #e58520;
+  --text-on-accent: #ffffff;
+  --text-selection: #676b7180;
+  --text-highlight-bg: #575b6180;
+  --text-highlight-border: #3655b5;
+  --text-cursor: #c07020;
+
+  --interactive-accent: #3655b5;
+  --interactive-hover: #707070;
+  --interactive-normal: #565656;
+  --interactive-muted: #4e4e4e;
+
+  --list-hover-bg: #444444;
+  --list-selection-bg: #707070;
+  --list-inactive-selection-bg: #4e4e4e;
+
+  --code-background: #1e1e1e;
+  --code-comment: #9A9B99;
+  --code-string: #9AA83A;
+  --code-number: #6089B4;
+  --code-keyword: #676867;
+  --code-function: #CE6700;
+  --code-variable: #6089B4;
+  --code-tag: #D0B344;
+  --code-tag-name: #6089B4;
+  --code-attribute: #D0B344;
+  --code-constant: #8080FF;
+  --code-support: #C7444A;
+
+  --h1-color: #D0B344;
+  --h2-color: #D0B344;
+  --h3-color: #D0B344;
+  --h4-color: #D0B344;
+  --h5-color: #D0B344;
+  --h6-color: #D0B344;
+
+  --blockquote-color: #9872A2;
+  --bold-color: #6089B4;
+  --italic-color: #6089B4;
+
+  --tab-inactive-bg: #404040;
+  --tab-border: #303030;
+  --tab-inactive-fg: #d8d8d8;
+
+  --status-bar-bg: #505050;
+  --titlebar-bg: #505050;
+
+  --activity-bar-bg: #353535;
+  --activity-bar-fg: #ffffff;
+  --activity-bar-badge-bg: #3655b5;
+
+  --side-bar-bg: #272727;
+  --side-bar-section-bg: #505050;
+
+  --menu-bg: #272727;
+  --menu-fg: #CCCCCC;
+
+  --terminal-bg: #1e1e1e;
+  --terminal-fg: #e3e3dd;
+  --terminal-selection: #676b7140;
+}
+:root {
+  --background-primary: #1e1e1e !important;
+  --background-secondary: #252526 !important;
+  --background-modifier-border: #333333 !important;
+
+  --text-normal: #d4d4d4 !important;
+  --text-muted: #999999 !important;
+  --text-faint: #666666 !important;
+
+  --accent: #569cd6 !important;
+  --highlight-mixed: #b5cea8 !important;
+
+  --code-normal: #d4d4d4 !important;
+  --code-comment: #6a9955 !important;
+  --code-keyword: #c586c0 !important;
+  --code-function: #dcdcaa !important;
+  --code-variable: #9cdcfe !important;
+  --code-string: #ce9178 !important;
+  --code-number: #b5cea8 !important;
+  --code-type: #4ec9b0 !important;
+
+  --inline-code: #ce9178 !important;
+  --code-background: #1e1e1e !important;
+
+  --tag-color: #4ec9b0 !important;
+  --link-color: #569cd6 !important;
+  --h1-color: #dcdcaa !important;
+  --h2-color: #c586c0 !important;
+  --h3-color: #9cdcfe !important;
+}
+
+.cm-s-obsidian span.cm-comment {
+  color: #6a9955 !important;
+}
+.cm-s-obsidian span.cm-keyword {
+  color: #c586c0 !important;
+}
+.cm-s-obsidian span.cm-def {
+  color: #dcdcaa !important;
+}
+.cm-s-obsidian span.cm-variable {
+  color: #9cdcfe !important;
+}
+.cm-s-obsidian span.cm-string {
+  color: #ce9178 !important;
+}
+.cm-s-obsidian span.cm-number {
+  color: #b5cea8 !important;
+}
+.cm-s-obsidian span.cm-type {
+  color: #4ec9b0 !important;
+}
+.cm-s-obsidian span.cm-link {
+  color: #569cd6 !important;
+}
+
+.markdown-preview-view code {
+  background-color: #1e1e1e !important;
+  color: #ce9178 !important;
+}

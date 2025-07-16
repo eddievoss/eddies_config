@@ -1,4 +1,16 @@
-# Eddie's Config Files
+# Eddie's Configuration:
+
+### Browser:
+- Libre Wolf
+  ##### - Extensions: 
+  - Vimium
+  - UBlock Origin
+  - Dark Reader
+
+### Code Development:
 - NeoVim
-- Vimium
-- VS Code 
+- VS Code
+  - TODO Highlight
+  - Neovim
+
+

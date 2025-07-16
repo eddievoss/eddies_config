@@ -4,13 +4,13 @@
 SendMode("Input")
 SetWorkingDir(A_ScriptDir)
 
-; ----- Meh + Left: Switch to Google Chrome -----
+; ----- Meh + Left: Switch to Firefox -----
 ^!+Left::
 {
-    if WinExist("ahk_exe chrome.exe")
+    if WinExist("ahk_exe firefox.exe")
         WinActivate()
     else
-        Run("C:\Program Files\Google\Chrome\Application\chrome.exe")
+        Run("C:\Program Files\Mozilla Firefox\firefox.exe")
 }
 
 ; ----- Meh + Right: Switch to Visual Studio Code -----

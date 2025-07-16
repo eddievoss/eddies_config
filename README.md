@@ -1,16 +1,15 @@
 # Eddie's Configuration:
 
-### Browser:
-- Libre Wolf
-  - Extensions: 
-  - [ ] Vimium
-  - UBlock Origin
-  - Dark Reader
+### Operatiing System:
+- PopOS
 
 ### Code Development:
-- NeoVim
 - VS Code
-  - TODO Highlight
   - Neovim
+  - TODO Highlight
 
-
+### Browser:
+- Libre Wolf
+  - Vimium
+  - UBlock Origin
+  - Dark Reader

@@ -13,3 +13,4 @@
   - Vimium
   - UBlock Origin
   - Dark Reader
+  - New Tab Override (Sören Hentzschel)

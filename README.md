@@ -2,8 +2,8 @@
 
 ### Browser:
 - Libre Wolf
-  ##### - Extensions: 
-  - Vimium
+  - Extensions: 
+  - [ ] Vimium
   - UBlock Origin
   - Dark Reader
 

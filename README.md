@@ -1,17 +1,19 @@
 # Eddie's Configuration
 
-### **Browser: LibreWolf**
+## Operation System: Linux (PopOS) 
+
+## **Browser: LibreWolf**
   - **Extensions:**
-    - Vimium
+    - Vimium (Custom Settings)
     - uBlock Origin
     - Dark Reader
 
-### VS Code
+## IDE: VS Code
   - **Extensions:**
     - Neovim 
     - TODO Highlight
-  - **Config:**
-    - `settings.json`
-    - `keybindings.json`
 
-### Operation System: Linux (PopOS)
+## Notes: Obsidian
+  - **Extensions:**
+    -  Dataview
+    -  VimRC Support

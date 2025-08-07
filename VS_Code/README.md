@@ -1,4 +1,4 @@
-VS Code
-  - **Extensions:**
-    - Neovim 
-    - TODO Highlight
+# VS Code
+### Extensions:
+  - Neovim
+  - TODO Highlight

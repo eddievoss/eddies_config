@@ -1,6 +1,4 @@
-# Eddie's Configuration
-
-## Operation System: Linux (PopOS) 
+# Eddie's Configuration 
 
 ## **Browser: LibreWolf**
   - **Extensions:**

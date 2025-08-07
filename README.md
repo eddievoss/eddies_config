@@ -1,17 +1,18 @@
-# Eddie's Configuration:
+# Eddie's Configuration
 
-### Operatiing System:
-- Linux (PopOS)
+## Operating System
+- **Linux** (Pop!_OS)
 
-### Code Development:
-- VS Code
+## Code Development
+- **VS Code**
   - Neovim
   - TODO Highlight
 
-### Browser:
-- Libre Wolf
-  - **Extensions:**
-  - Vimium
-  - UBlock Origin
-  - Dark Reader
-  - New Tab Override (Sören Hentzschel)
+## Browser
+- **LibreWolf**
+  - **Extensions**
+    - Vimium
+    - uBlock Origin
+    - Dark Reader
+    - New Tab Override (Sören Hentzschel)
+

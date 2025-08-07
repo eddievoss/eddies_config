@@ -1,7 +1,7 @@
 # Eddie's Configuration:
 
 ### Operatiing System:
-- PopOS
+- Linux (PopOS)
 
 ### Code Development:
 - VS Code
@@ -10,6 +10,7 @@
 
 ### Browser:
 - Libre Wolf
+  - **Extensions:**
   - Vimium
   - UBlock Origin
   - Dark Reader

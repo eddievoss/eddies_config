@@ -1,12 +1,16 @@
 # Eddie's Configuration
 
 ## Operating System
-- **Linux** (Pop!_OS)
+### Linux (PopOS)
 
 ## Code Development
-- **VS Code**
-  - Neovim
-  - TODO Highlight
+### VS Code
+  - **Extensions:**
+    - Neovim 
+    - TODO Highlight
+  - **Config:**
+    - `settings.json`
+    - `keybindings.json`
 
 ## Browser
 - **LibreWolf**

@@ -36,7 +36,7 @@
   --background-modifier-error-rgb: 196, 38, 94;
   --background-modifier-error-hover: var(--red);
   --background-modifier-cover: rgba(0, 0, 0, 0.6);
-  --code-background: var(--bg2);
+  --code-background: var(--bg1);
   --text-accent: var(--orange);
   --text-accent-hover: var(--blue);
   --text-normal: var(--fg0);

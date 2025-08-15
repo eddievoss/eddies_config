@@ -70,3 +70,9 @@
   --oz-fta-folder-pane-file-name-color: var(--yellow);
   --db-plugin-row-shadow: var(--bg1);
 }
+
+/* Inline code in editor view */
+.cm-s-obsidian span.cm-inline-code {
+  color: var(--yellow);
+}
+

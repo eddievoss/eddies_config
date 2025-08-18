@@ -5,7 +5,7 @@ SendMode("Input")
 SetWorkingDir(A_ScriptDir)
 
 ; ----- Meh + Left: Switch to Firefox -----
-^!+Left::
+#Left::
 {
     if WinExist("ahk_exe firefox.exe")
         WinActivate()
@@ -14,7 +14,7 @@ SetWorkingDir(A_ScriptDir)
 }
 
 ; ----- Meh + Right: Switch to Visual Studio Code -----
-^!+Right::
+#Right::
 {
     if WinExist("ahk_exe Code.exe")
         WinActivate()
@@ -23,7 +23,7 @@ SetWorkingDir(A_ScriptDir)
 }
 
 ; ----- Meh + Down: Switch to Obsidian -----
-^!+Down::
+#Down::
 {
     if WinExist("ahk_exe Obsidian.exe")
         WinActivate()
@@ -32,7 +32,7 @@ SetWorkingDir(A_ScriptDir)
 }
 
 ; ----- Meh + Up: Switch to Git Bash -----
-^!+Up::
+#Up::
 {
     if WinExist("ahk_exe mintty.exe")
         WinActivate()

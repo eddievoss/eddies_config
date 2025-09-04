@@ -37,8 +37,8 @@
   --background-modifier-error-hover: var(--red);
   --background-modifier-cover: rgba(0, 0, 0, 0.6);
   --code-background: var(--bg1);
-  --text-accent: var(--orange);
-  --text-accent-hover: var(--blue);
+  --text-accent: var(--blue);
+  --text-accent-hover: var(--cyan);
   --text-normal: var(--fg0);
   --text-muted: var(--fg1);
   --text-faint: var(--fg2);

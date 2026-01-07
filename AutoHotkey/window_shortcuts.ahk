@@ -4,16 +4,16 @@
 SendMode("Input")
 SetWorkingDir(A_ScriptDir)
 
-; ----- Meh + Left: Switch to Firefox -----
+; Win + Left: Switch to Chrome
 #Left::
 {
-    if WinExist("ahk_exe firefox.exe")
+    if WinExist("ahk_exe chrome.exe")
         WinActivate()
     else
-        Run("C:\Program Files\Mozilla Firefox\firefox.exe")
+        Run("C:\Program Files\Google\Chrome\Application\chrome.exe")
 }
 
-; ----- Meh + Right: Switch to Visual Studio Code -----
+; Win + Right: Switch to VS Code
 #Right::
 {
     if WinExist("ahk_exe Code.exe")
@@ -22,7 +22,7 @@ SetWorkingDir(A_ScriptDir)
         Run("C:\Program Files\Microsoft VS Code\Code.exe")
 }
 
-; ----- Meh + Down: Switch to Obsidian -----
+; Win + Down: Switch to Obsidian
 #Down::
 {
     if WinExist("ahk_exe Obsidian.exe")
@@ -31,11 +31,11 @@ SetWorkingDir(A_ScriptDir)
         Run("C:\Users\EdwardVoss\AppData\Local\Obsidian\Obsidian.exe")
 }
 
-; ----- Meh + Up: Switch to Git Bash -----
+; Win + Up: Switch to Windows Terminal
 #Up::
 {
-    if WinExist("ahk_exe mintty.exe")
+    if WinExist("ahk_exe WindowsTerminal.exe")
         WinActivate()
     else
-        Run("C:\Users\EdwardVoss\AppData\Local\Programs\Git\git-bash.exe")
+        Run("wt.exe")
 }
